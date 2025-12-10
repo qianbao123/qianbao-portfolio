@@ -61,11 +61,42 @@ export default function Home() {
       
       {/* 1. 顶部导航 - 更新版 */}
       <nav className="fixed w-full z-40 flex justify-between items-center p-8 mix-blend-difference text-white">
-        {/* 左侧 LOGO */}
-        <div className="text-xl font-bold tracking-[0.2em] uppercase cursor-pointer hover:opacity-70 transition-opacity">
-          DIRECTOR<span className="text-red-600">.</span>
+        {/* 左侧 LOGO - 新版：QIANBAO */}
+        <div className="flex items-center gap-4 cursor-pointer group">
+          {/* 图标：未完成的弧光 */}
+          <svg width="42" height="42" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="opacity-90 group-hover:opacity-100 transition-opacity duration-500">
+            {/* 左下角的厚弧线 - 代表边缘/土壤 */}
+            <path 
+              d="M20 70 C 20 85, 35 95, 50 95 C 65 95, 75 85, 80 70" 
+              stroke="#E5E5E5" 
+              strokeWidth="3" 
+              strokeLinecap="round"
+              className="opacity-60"
+            />
+            
+            {/* 右上角的细弧线 - 代表脆弱/微光/视线 */}
+            {/* 注意这里用了 muted red (暗红色/陶土色) 代替正红 */}
+            <path 
+              d="M80 30 C 75 15, 60 5, 45 5 C 30 5, 20 15, 15 35" 
+              stroke="#991b1b" 
+              strokeWidth="2.5" 
+              strokeLinecap="round" 
+            />
+            
+            {/* 中间游离的小点 - 象征个体 */}
+            <circle cx="50" cy="50" r="2" fill="#E5E5E5" className="opacity-40" />
+          </svg>
+          
+          {/* 文字部分 - 更加内敛的排版 */}
+          <div className="flex flex-col justify-center">
+            <span className="text-lg font-medium tracking-[0.25em] leading-none text-gray-200 uppercase font-serif">
+              Filmmaking
+            </span>
+            <span className="text-[9px] font-light tracking-[0.4em] leading-none text-gray-500 uppercase mt-1.5 ml-0.5">
+              Documentary
+            </span>
+          </div>
         </div>
-
         {/* 右侧 导航链接 */}
         <div className="space-x-8 text-xs font-medium tracking-widest uppercase hidden md:block">
           {/* 指向作品列表 */}
@@ -86,7 +117,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/40 to-black/80"></div>
         <div className="relative z-10 text-center max-w-4xl px-6 mt-40">
           <p className="text-red-600 tracking-[0.4em] text-xs font-bold mb-6 uppercase animate-fade-in">
-            Documentary Filmmaker
+            Documentary Filmmaking
           </p>
           <h1 className="text-6xl md:text-8xl font-serif italic mb-8 leading-none tracking-wide text-white/90">
   Qianbao Tu
@@ -147,7 +178,7 @@ export default function Home() {
               "What matters is not to speak for, but to speak with."
             </p>
             <p className="text-gray-500 text-sm leading-7 max-w-md">
-              Based on Norway and China, focusing on vulnerability and the ethics of seeing, listening, and being seen.
+              Based in Norway and China, focusing on vulnerability and the ethics of seeing, listening, and being seen.
               <br />
               Available for freelance projects worldwide.
             </p>

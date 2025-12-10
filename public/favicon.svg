@@ -1,0 +1,22 @@
+<svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="50" fill="#1a1a1a" />
+
+  <path 
+    d="M20 70 C 20 85, 35 95, 50 95 C 65 95, 75 85, 80 70" 
+    stroke="#E5E5E5" 
+    stroke-width="3" 
+    stroke-linecap="round"
+    stroke-opacity="0.6"
+    fill="none"
+  />
+  
+  <path 
+    d="M80 30 C 75 15, 60 5, 45 5 C 30 5, 20 15, 15 35" 
+    stroke="#991b1b" 
+    stroke-width="2.5" 
+    stroke-linecap="round"
+    fill="none"
+  />
+  
+  <circle cx="50" cy="50" r="2" fill="#E5E5E5" fill-opacity="0.4" />
+</svg>
