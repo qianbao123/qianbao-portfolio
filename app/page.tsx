@@ -2,6 +2,7 @@
 'use client'; 
 
 import { useState, useEffect } from "react";
+import DesignSection from '../components/DesignSection';
 
 // 定义数据类型 (这是 TypeScript 特有的部分)
 interface Project {
@@ -128,8 +129,22 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 作品展示 */}
+      {/* 作品展示 (Video Works) */}
       <section id="work" className="py-24 px-4 md:px-12 bg-[#050505] relative z-20">
+        
+        {/* Filming as a narrative 标题区域 */}
+        <div className="max-w-6xl mx-auto mb-16">
+          <h2 className="text-3xl md:text-4xl font-serif font-medium tracking-wide mb-4 text-white">
+            Filming as a narrative
+          </h2>
+          <div className="h-1 w-20 bg-red-600 mb-6"></div>
+          
+          {/* 👇 新增的这一段说明文字 */}
+          <p className="text-gray-500 font-light text-lg leading-relaxed max-w-2xl">
+            Through the lens of intimacy and observation, capturing the unspoken dialogue between people and their environments.
+          </p>
+        </div>
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-8">
           {projects.map((project) => (
             <div 
@@ -165,6 +180,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+<DesignSection />
 
       {/* 关于与联系 */}
      {/* 5. 导演简介与联系方式 (Combined Footer) */}
