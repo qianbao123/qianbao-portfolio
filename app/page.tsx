@@ -31,7 +31,7 @@ const projects: Project[] = [
     category: "Scientific Doc",
     year: "2025",
     image: "/work2.png",
-    vimeoId: "", 
+    vimeoId: "1145597340", 
     description: "Exploring hidden world and marine co-existence"
   },
   {
@@ -94,7 +94,7 @@ export default function Home() {
               Storytelling
             </span>
             <span className="text-[9px] font-light tracking-[0.4em] leading-none text-gray-500 uppercase mt-1.5 ml-0.5">
-              Documentary
+              Documentary & Design
             </span>
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/40 to-black/80"></div>
         <div className="relative z-10 text-center max-w-4xl px-6 mt-40">
           <p className="text-red-600 tracking-[0.4em] text-xs font-bold mb-6 uppercase animate-fade-in">
-            Documentary Filmmaking
+            Storyteller
           </p>
           <h1 className="text-6xl md:text-8xl font-serif italic mb-8 leading-none tracking-wide text-white/90">
   Qianbao Tu
@@ -195,9 +195,13 @@ export default function Home() {
               "What matters is not to speak for, but to speak with."
             </p>
             <p className="text-gray-500 text-sm leading-7 max-w-md">
-              Based in Norway and China, focusing on vulnerability and the ethics of seeing, listening, and being seen.
-              <br />
+              Based in Norway & China
+               <br />
               Available for freelance projects worldwide.
+               <br />
+              Focusing on the ethics of seeing, listening, and being seen.
+              <br />
+              
             </p>
           </div>
 
