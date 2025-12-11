@@ -20,7 +20,7 @@ const projects: Project[] = [
   {
     id: 2,
     title: "Simple Diabetic Life",
-    subtitle: "Product Service System | 2015",
+    subtitle: "Product Service System | 2016",
     description: "A digital management system designed for Type 2 diabetes. It bridges the information gap between doctors and patients through data visualization, providing a productive tool for professionals and an easy control method for patients.",
     tags: ["Service Blueprint", "Data Visualization", "Doctor-Patient", "Health Tech"],
     icon: <Activity className="w-8 h-8 text-blue-600" />,
@@ -33,7 +33,7 @@ const projects: Project[] = [
   {
     id: 3,
     title: "Service Design in Chinese Community",
-    subtitle: "Ethnographic Study & Research",
+    subtitle: "Ethnographic Study & Research| 2019",
     description: "An ethnographic study conducted in Fengle Community, Anhui. It explores the emerging relationships among the government, service providers, and local residents to optimize the multi-participation mechanism in public services.",
     tags: ["Ethnography", "Stakeholder Map", "Social Impact", "Research"],
     icon: <Map className="w-8 h-8 text-orange-600" />,

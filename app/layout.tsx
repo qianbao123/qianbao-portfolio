@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Qianbao Tu | Filmmaker",
+  title: "Qianbao Tu | Storyteller",
   description: "Portfolio of Qianbao Tu, a documentary filmmaker based in Norway and China.",
 icons: {
     icon: "/favicon.svg", 
