@@ -135,7 +135,7 @@ export default function Home() {
         {/* Filming as a narrative 标题区域 */}
         <div className="max-w-6xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-serif font-medium tracking-wide mb-4 text-white">
-            Filming as a narrative
+            Filming as Narrative
           </h2>
           <div className="h-1 w-20 bg-red-600 mb-6"></div>
           
@@ -144,7 +144,7 @@ export default function Home() {
             Through the lens of intimacy and observation, capturing the unspoken dialogue between people and their environments.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-8">
           {projects.map((project) => (
             <div 
