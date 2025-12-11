@@ -20,8 +20,8 @@ interface Project {
 const projects: Project[] = [
   {
     id: 3,
-    title: "Service Design in Chinese Community | 2019",
-    subtitle: "Ethnographic Study & Research",
+    title: "Service Design in Chinese Community",
+    subtitle: "Ethnographic Study & Research | 2019",
     description: "An ethnographic study conducted in Fengle Community, Anhui. It explores the emerging relationships among the government, service providers, and local residents.",
     tags: ["Ethnography", "Stakeholder Map", "Research"],
     icon: <Map className="w-8 h-8 text-red-600" />,
