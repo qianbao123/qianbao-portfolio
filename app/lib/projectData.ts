@@ -8,6 +8,7 @@ export interface ProjectDetail {
   role: string;
   heroImage: string; // 首页大图
   intro: string;     // 项目简介
+  vimeoID?: string;
   
   // 叙事章节：每个项目可以有多个章节
   sections: {
@@ -34,6 +35,7 @@ export const projectsData: Record<string, ProjectDetail> = {
     role: "Service Designer & Researcher",
     heroImage: "/images/diabetic-ui.jpg", 
     intro: "A digital ecosystem bridging the information gap between doctors and Type-2 diabetes patients, making chronic disease management proactive rather than reactive.",
+    vimeoID: "365052203",
     sections: [
       {
         title: "The Context",

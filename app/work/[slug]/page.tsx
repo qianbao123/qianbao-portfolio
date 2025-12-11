@@ -4,23 +4,19 @@ import { notFound } from 'next/navigation';
 import { ArrowLeft } from 'lucide-react';
 import { projectsData } from '@/app/lib/projectData'; 
 
-// 1. 接口定义
 interface ProjectPageProps {
   params: Promise<{
     slug: string;
   }>;
 }
 
-// 2. 静态参数生成 (解决 export 报错)
 export async function generateStaticParams() {
   return Object.keys(projectsData).map((slug) => ({
     slug: slug,
   }));
 }
 
-// 3. 主页面组件
 export default async function ProjectDetail({ params }: ProjectPageProps) {
-  // 等待 params 解析 (Next.js 15 要求)
   const { slug } = await params;
   const project = projectsData[slug];
 
@@ -80,6 +76,23 @@ export default async function ProjectDetail({ params }: ProjectPageProps) {
         </p>
         <div className="h-20 w-[1px] bg-gradient-to-b from-red-600 to-transparent mx-auto mt-16"></div>
       </section>
+
+      {/* 🆕 新增：Video Section (如果有 vimeoId 才显示) */}
+      {project.vimeoID && (
+        <section className="px-6 pb-24 max-w-6xl mx-auto">
+          <div className="relative w-full aspect-video bg-gray-900 rounded-sm overflow-hidden border border-gray-800 shadow-2xl shadow-red-900/10">
+            <iframe 
+              src={`https://player.vimeo.com/video/${project.vimeoID}?autoplay=0&title=0&byline=0&portrait=0`} 
+              className="absolute top-0 left-0 w-full h-full" 
+              allow="autoplay; fullscreen; picture-in-picture" 
+              allowFullScreen
+            ></iframe>
+          </div>
+          <p className="mt-4 text-[10px] text-gray-500 uppercase tracking-widest text-center">
+            Project Concept Video / Demo
+          </p>
+        </section>
+      )}
 
       {/* 4. Narrative Sections */}
       <div className="max-w-6xl mx-auto px-6 pb-32 space-y-32">
