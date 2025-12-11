@@ -90,7 +90,7 @@ export default function Home() {
           {/* 文字部分 - 更加内敛的排版 */}
           <div className="flex flex-col justify-center">
             <span className="text-lg font-medium tracking-[0.25em] leading-none text-gray-200 uppercase font-serif">
-              Filmmaking
+              Storytelling
             </span>
             <span className="text-[9px] font-light tracking-[0.4em] leading-none text-gray-500 uppercase mt-1.5 ml-0.5">
               Documentary
