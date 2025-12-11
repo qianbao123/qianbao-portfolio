@@ -33,7 +33,7 @@ const projects: Project[] = [
   {
     id: 2,
     title: "Simple Diabetic Life",
-    subtitle: "Product Service System | 2015",
+    subtitle: "Product Service System | 2016",
     description: "A digital management system designed for Type 2 diabetes. It bridges the information gap between doctors and patients through data visualization.",
     tags: ["Service Blueprint", "Data Viz", "Health Tech"],
     icon: <Activity className="w-8 h-8 text-red-600" />,
