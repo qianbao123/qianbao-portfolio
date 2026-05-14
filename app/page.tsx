@@ -18,12 +18,12 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "My Nun Mom",
+    title: "URO (断裂)",
     category: "Documentary",
-    year: "2025",
-    image: "/work1.jpg", 
-    vimeoId: "1119700042", 
-    description: "When my mom decided to not being a mom anymore"
+    year: "2026",
+    image: "/work3.jpg",
+    vimeoId: "1190137955", 
+    description: "URO — Norwegian for unrest — follows a daughter caught between two women who cannot speak the same language"
   },
   {
     id: 2,
@@ -36,12 +36,12 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Fra øst til nord (断裂)",
+    title: "My Nun Mom",
     category: "Documentary",
     year: "2025",
-    image: "/work3.jpg",
-    vimeoId: "", 
-    description: "The 6th year as an immigrant in Norway,"
+    image: "/work1.jpg", 
+    vimeoId: "1119700042", 
+    description: "When my mom decided to not being a mom anymore"
   }
 ];
 
