@@ -21,7 +21,7 @@ const projects: Project[] = [
     {
     id: 1,
     title: "URO Enthnographic Notes",
-    subtitle: "Ethnographic film mpte | 2026",
+    subtitle: "Ethnographic film note | 2026",
     description: "After her mother ordains as a Buddhist nun and tells her, From today on, you don't have a mother anymore. You have to call me Master, a Chinese designer leaves her newly granted residency in Norway and returns to a rural Chinese temple, armed with a camera, her mother's old diaries, and a question she can no longer postpone.",
     tags: ["Ethnography", "Film", "Research"],
     icon: <Map className="w-8 h-8 text-red-600" />,
@@ -66,11 +66,11 @@ const DesignSection: React.FC = () => {
         <div className="mb-16 md:flex md:justify-between md:items-end">
           <div className="max-w-2xl">
             <h2 className="text-3xl md:text-4xl font-serif font-medium tracking-wide mb-4 text-white">
-              Design as Narrative
+              Notes and Others
             </h2>
             <div className="h-1 w-20 bg-red-600 mb-6"></div>
             <p className="text-gray-500 font-light text-lg leading-relaxed">
-              It is not just about solving problems, but telling stories about systems, environments, and people.
+              Every image is a mode of transportation, as well as a representation of absence.
             </p>
           </div>
           

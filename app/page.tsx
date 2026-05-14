@@ -60,8 +60,8 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#050505] text-gray-200 font-sans selection:bg-red-900 selection:text-white">
       
-      {/* 1. 顶部导航 - 更新版 */}
-      <nav className="fixed w-full z-40 flex justify-between items-center p-8 mix-blend-difference text-white">
+     {/* 1. 顶部导航 - 更新版 (添加半透黑背景和毛玻璃效果) */}
+      <nav className="fixed w-full z-40 flex justify-between items-center px-8 py-5 bg-black/40 backdrop-blur-md text-white border-b border-white/5 transition-all duration-300">
         {/* 左侧 LOGO - 新版：QIANBAO */}
         <div className="flex items-center gap-4 cursor-pointer group">
           {/* 图标：未完成的弧光 */}
@@ -144,7 +144,7 @@ export default function Home() {
           
           {/* 👇 新增的这一段说明文字 */}
           <p className="text-gray-500 font-light text-lg leading-relaxed max-w-2xl">
-            Through the lens of intimacy and observation, capturing the unspoken dialogue between people and their environments.
+            Through the lens of intimacy and observation, between us lies the imagination of another life.
           </p>
         </div>
 
@@ -169,7 +169,7 @@ export default function Home() {
               </div>
               <div className="border-t border-gray-800 pt-4 flex justify-between items-start group-hover:border-red-900 transition-colors duration-500">
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-1 group-hover:text-red-500 transition-colors">{project.title}</h3>
+                  <h3 className="text-2xl font-bold font-serif text-white mb-1 group-hover:text-red-500 transition-colors">{project.title}</h3>
                   <p className="text-gray-500 text-sm font-light">{project.description}</p>
                 </div>
                 <div className="text-right">
@@ -242,7 +242,7 @@ export default function Home() {
 
             </div>
 
-            <p className="text-xs text-gray-700">© 2025 QIANBAOTU. All Rights Reserved.</p>
+            <p className="text-xs text-gray-700">© 2026 QIANBAOTU. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
