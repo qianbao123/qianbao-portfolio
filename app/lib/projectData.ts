@@ -30,7 +30,7 @@ export interface ProjectDetail {
 export const projectsData: Record<string, ProjectDetail> = {
 
   "uro-film-note": {
-    title: "URO Enthnographic Notes",
+    title: "URO Notes",
     subtitle: "Docuemntary Film Working in progress",
     year: "2026",
     role: "Director & Writor",
@@ -79,7 +79,20 @@ export const projectsData: Record<string, ProjectDetail> = {
         content: "On June 7, 2013, a man named Chen Shuizong, despondent over disputes about his retirement benefits, set fire to a Bus Rapid Transit (BRT) vehicle in Xiamen, Fujian Province. 47 people died,34 injured. Coverage in mainland Chinese media was tightly controlled and quickly faded; there was no national mourning event, limited public memorial and discussion on the warfare system.",
         image: "/images/uro-fire.png", 
         imageCaption: "Golden paper burning ceremony in the temple"
+      },
+      {
+        title: "Fraud Village Witches (神婆shénpó)",
+        content: "神婆 refers to rural folk shamans, almost always women, who claim spiritual powers and are seen as both fearsome and fraudulent — a deeply gendered, classed insult drawn from Chinese village life. Living as a Buddhism Nun, they will need to fight against misunderstandings that their own ordination might be perceived from outside as performance, charlatanism, or self-delusion.",
+        image: "/images/uro-ezhou.png", 
+        imageCaption: "Community Buddhist Chanting Hall"
+      },
+      {
+        title: "On Mary Kay (玫琳凯) and Chen Anzhi (陈安之)",
+        content: "The American direct-sales cosmetics company entered China in 1995 and became a major recruitment system for working-class women in the late 1990s and early 2000s, especially in interior cities. Like other multi-level marketing schemes of that era — and like the success-coaching figure Chen Anzhi, whose seminars the mother attended — it offered women a fantasy of upward mobility through personal transformation, while functioning as a pyramid system in which most participants lost money. The mother's diary captures the entire arc: the manic optimism of joining, the shame of failure, the inability to disengage. For her generation of female factory workers facing layoffs from collapsing state enterprises, these schemes were one of the only available exits.",
+        image: "/images/uro-bishi1.png", 
+        imageCaption: "Work Unit's park"
       }
+      
     ],
     nextProject: {
       title: "Service Design in Chinese Community",

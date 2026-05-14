@@ -123,11 +123,11 @@ export default function Home() {
           <h1 className="text-6xl md:text-8xl font-serif italic mb-8 leading-none tracking-wide text-white/90">
   Qianbao Tu
 </h1>
-          <p className="text-gray-400 text-lg md:text-xl font-light tracking-wide max-w2-xl mx-auto mb-4">
-            “What matters is not speak for, but to speak with.” 
+          <p className="text-gray-400 text-lg md:text-xl font-light tracking-wide max-w2-xl mx-auto mb-2">
+            What matters is not speak for, but to speak with. -Trinh T. Minh-ha
              </p>
-               <p className="text-gray-400 text-lg md:text-xl font-light tracking-wide max-w-2xl mx-auto mb-12">
-            我必须知道，自己如何同你紧密相连。
+               <p className="text-gray-400 text-lg md:text-s font-light tracking-wide max-w-2xl mx-auto mb-12">
+            我必须知道，自己何以同你紧密相连。
           </p>
         </div>
       </section>

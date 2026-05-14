@@ -20,7 +20,7 @@ interface Project {
 const projects: Project[] = [
     {
     id: 1,
-    title: "URO Enthnographic Notes",
+    title: "URO Notes",
     subtitle: "Ethnographic film note | 2026",
     description: "After her mother ordains as a Buddhist nun and tells her, From today on, you don't have a mother anymore. You have to call me Master, a Chinese designer leaves her newly granted residency in Norway and returns to a rural Chinese temple, armed with a camera, her mother's old diaries, and a question she can no longer postpone.",
     tags: ["Ethnography", "Film", "Research"],
