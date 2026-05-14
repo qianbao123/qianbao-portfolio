@@ -18,6 +18,18 @@ interface Project {
 
 // 2. 定义数据 (顺序已交换)
 const projects: Project[] = [
+    {
+    id: 1,
+    title: "URO Enthnographic Notes",
+    subtitle: "Ethnographic film mpte | 2026",
+    description: "After her mother ordains as a Buddhist nun and tells her, From today on, you don't have a mother anymore. You have to call me Master, a Chinese designer leaves her newly granted residency in Norway and returns to a rural Chinese temple, armed with a camera, her mother's old diaries, and a question she can no longer postpone.",
+    tags: ["Ethnography", "Film", "Research"],
+    icon: <Map className="w-8 h-8 text-red-600" />,
+    color: "bg-gray-900", 
+    slug: "uro-film-note",
+    imageSrc: "/images/uro-fire.png",
+    imagePlaceholder: "Suggested: uro"
+  },
   {
     id: 3,
     title: "Service Design in Chinese Community",

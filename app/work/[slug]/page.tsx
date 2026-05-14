@@ -100,7 +100,7 @@ export default async function ProjectDetail({ params }: ProjectPageProps) {
             
             <div className="flex-1 space-y-6 pt-4 sticky top-20">
               <h2 className="text-3xl font-serif text-white flex flex-col gap-2">
-                <span className="text-red-600 text-xs font-sans font-bold tracking-widest uppercase">Chapter 0{index + 1}</span>
+                <span className="text-red-600 text-xs font-sans font-bold tracking-widest uppercase"> 0{index + 1}</span>
                 {section.title}
               </h2>
               <p className="text-gray-400 leading-8 font-light text-lg">
